@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb16ba7d58b2b4855b6bd0032ff94dd7, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  _numberOfEnemies: 35
+  _enemyDelta: 0
+  _regularSpawnIntervalMax: 2
+  _regularSpawnIntervalMin: 0.8
+  _enemies:
+  - {fileID: 1447157458293288, guid: 8b33957aa369842f7a63f7dd0d2e2edf, type: 2}
+  - {fileID: 1335155906565316, guid: d66d3abdbd0cd4810811947cc1eb637a, type: 2}
+  _percentages:
+  - 0.92
+  - 0.08
+  _typeAllowed: 010000000200000003000000
+  _typeColors:
+  - {r: 0.99607843, g: 0.7137255, b: 0.14509805, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0.43646842, b: 0, a: 1}
